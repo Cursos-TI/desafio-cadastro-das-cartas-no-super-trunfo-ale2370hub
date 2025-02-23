@@ -10,29 +10,30 @@ int main() {
     float pib;
     int pontosTuristicos;
 
-//Cadastro da primeira carta
-    printf("Digite o estado da primeira cidade:\n ");    
+//Cadastro da segunda carta
+
+    printf("Digite o estado da segunda cidade:\n ");    
     scanf(" %c", &estado);
                                                 
-    printf("Digite o código da primeira cidade :\n ");         
+    printf("Digite o código da segunda cidade :\n ");         
     scanf(" %s", &codigo);
                                                             
-    printf("Digite o nome da primeira cidade:\n ");
+    printf("Digite o nome da segunda cidade:\n ");
     scanf("%s", &cidade);       
                                                                         
-    printf("Digite a população da primeira cidade:\n "); 
+    printf("Digite a população da segunda cidade:\n "); 
     scanf(" %d", &populacao);
     
-    printf("Digite a área da primeira cidade (km²):\n  ");  
+    printf("Digite a área da segunda cidade (km²):\n  ");  
     scanf(" %f", &area); 
                                                                                                 
-    printf("Digite o PIB da primeira cidade (em bilhões de reais):\n  ");  
+    printf("Digite o PIB da segunda cidade (em bilhões de reais):\n  ");  
     scanf(" %f", &pib);
                                                                                                             
-    printf("Digite o número de pontos turísticos da primeira cidade:\n  ");
+    printf("Digite o número de pontos turísticos da segunda cidade:\n  ");
     scanf(" %d", &pontosTuristicos);
 
-//Dados cadastrados da primeira carta
+//Dados cadastrados da segunda carta
 
     printf("Nome do estado:%c\n", estado);
 
